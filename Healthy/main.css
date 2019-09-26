@@ -1,0 +1,482 @@
+*
+{
+    box-sizing: border-box;
+}
+body, html
+{
+    height: 100%;
+    font-family: Lato, sans-serif;
+    margin: 0px;
+    position: relative;
+}
+ul
+{
+    margin: 0px 0px 0px 80px;
+    padding: 0px;
+}
+li
+{   
+    list-style-type: none;
+    display: inline;
+}
+.nav a
+{
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    padding: 25px 5px;
+    border-radius: 10px;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+header
+{
+    background-color: rgb(46, 46, 46);
+}
+.headerContent
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#logo
+{
+    position: absolute;
+    margin-top: -150px;
+    left: -20px;
+}
+.placeholder
+{
+    font-family: fontawesome;
+    padding: 20px;
+}
+.search
+{
+    width: 30%;
+}
+#search
+{
+    height: 40px;
+}
+#search input
+{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 25px;
+    border: none;
+}
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.pimg1
+{
+    background-image: url("images/main-back.jpg");
+    min-height: 550px;
+}
+.welcome p
+{
+    margin: 0px;
+    padding-left: 40px;
+    color: white;
+}
+.welcome
+{
+    padding: 100px 0px;
+    position: relative;
+}
+.welcome p:nth-child(1)
+{
+    font-size: 50px;
+}
+.welcome p:nth-child(2)
+{
+    font-size: 60px;
+    transform: scale(1, 1.7);
+    margin: 30px 0px;
+}
+.welcomeWrap
+{
+    width: 80%;
+    background-color: black;
+    background: rgb(0, 0, 0, 0.2);
+    padding: 30px 0px;
+}
+h1
+{
+    font-size: 38px;
+    text-align: center;
+    color: rgb(221, 34, 34);
+    transform: scale(1, 1.5);
+    margin: 0px;    
+}
+.dietsContent
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.strawberry, .watermelon, .apple
+{
+    width: 33.33%;
+}
+.strawberry img, .watermelon img, .apple img
+{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.watermelon
+{
+    border-left:2px solid rgb(221, 34, 34);
+    border-right:2px solid rgb(221, 34, 34);
+}
+.dietsText p
+{
+    text-align: center;
+    color: rgb(221, 34, 34);
+    transform: scale(1, 1.5);
+    font-size: 20px;
+    width: 33.33%;
+    margin: 10px;
+}
+.dietsText
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.diets
+{
+    padding: 60px 0px;
+}
+.pimg2
+{
+    background-image: url("images/main-back2.jpg");
+    height: 400px;
+}
+.wealth
+{
+    padding: 100px 0px;
+    width: 70%;
+    margin: 0 auto;
+}
+.wealth p
+{
+    font-size: 40px;
+    transform: scale(1, 1.5);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.buttonWealth
+{
+    text-align: right;
+
+}
+.buttonWealth #button
+{
+    width: 25%;
+}
+#button
+{
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(221, 34, 34), rgb(224, 112, 112));
+}
+.whoText
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(46, 46, 46);
+}
+.who
+{
+    padding: 40px;
+}
+#whoText
+{
+    width: 45%;
+}
+.table
+{
+    width: 45%;
+}
+table
+{
+    width: 100%;
+}
+#whoweare
+{
+    margin: 40px 0px;
+}
+#whoText p
+{
+    font-size: 24px;
+}
+#whoText p1
+{
+    font-size: 18px;
+}
+table
+{
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+th
+{
+    padding: 15px;
+    color: rgb(221, 34, 34);
+    border-bottom: 1px solid gray;
+}
+td
+{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+
+}
+tr:nth-child(3)
+{
+    background-color: rgb(231, 244, 248);
+}
+
+tr td:last-child
+{
+    font-weight: bold;
+}
+.sponsors
+{
+    background-color: rgb(46, 46, 46);
+}
+.sponsorsContent
+{
+    padding: 40px 0px;
+}
+.sponsorsContent h1
+{
+    color: white;
+    margin: 20px 0px;
+}
+.sponsorLogo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.ourteamContent h1
+{
+    margin: 40px 0px;
+}
+.ourTeam h1
+{
+    font-size: 16px;
+    text-align: right;
+    margin: 20px 0px;
+}
+.ourTeam p
+{
+    font-size: 12px;
+    color: rgb(221, 34, 34);
+    text-align: right;
+}
+.ourTeam
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.imageWrap1, .imageWrap2, .imageWrap3, .imageWrap4
+{
+    border: 12px solid pink;
+    border-radius: 20%;
+    height: 180px;
+    width: 180px;
+}
+.imageWrap1
+{
+    background-image: url("images/01.png");
+    background-position: 45% 40%;
+}
+.imageWrap2
+{
+    background-image: url("images/02.png");
+    background-position: 45% 40%;
+}
+.imageWrap3
+{
+    background-image: url("images/03.png");
+    background-position: 45% 40%;
+}
+.imageWrap4
+{
+    background-image: url("images/04.png");
+    background-position: 55% 50%;
+}
+.ourteamContent
+{
+    padding: 40px;
+}
+.pimg3
+{
+    background-image: url("images/contact-back.jpg");
+    height: 800px;
+}
+.pimg3Back
+{
+    background-color: black;
+    background: rgb(0, 0, 0, 0.8); 
+    height: 100%;
+    
+}
+.info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    
+}
+
+.infoText
+{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+.infoForm
+{
+    width: 50%;
+    padding: 20px;
+}
+.contact-form-details
+{
+    margin-top: 80px;
+    font-weight: bold;
+}
+.contact-form-wrapper
+{
+    background-color: white;
+    border-radius: 30px;
+    padding: 100px 30px 50px 30px;
+}
+.form-title
+{
+    background-color: rgb(221, 34, 34);
+    color: white;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    top: 10px;
+    font-size: 26px;
+    font-weight: normal;
+    padding: 20px;
+    margin-top: -135px;
+    border-radius: 25px;
+}
+.account-info
+{
+    border: none;
+}
+.form-input
+{
+    display: block;
+    width: 100%;
+    border: 1px solid lightskyblue;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+.account-action
+{
+    border: none;
+    
+}
+.account-action #button
+{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.infoText
+{
+    margin-top: -200px;
+}
+.infoText p
+{
+    font-size: 20px;
+}
+.infoText h2
+{
+    font-size: 44px;
+    margin: 0px;
+}
+.infoText h5
+{
+    font-size: 22px;
+    margin: 0px 0px 80px 0px;
+}
+footer
+{
+    background-color:  black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+footer p
+{
+    margin: 0px;
+    padding: 25px;
+    font-size: 14px;
+}
+.vl
+{
+    border-left: 2px solid white;
+    margin-right: 4px;
+}
+.nav ul li a:hover 
+{
+    background-color: rgb(221, 34, 34);
+}
+#button:hover
+{
+    color: rgb(221, 34, 34);
+    background-image: none;
+    background-color: white;
+    border: 2px solid rgb(221, 34, 34);
+}
+#fb
+{
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    width: 7%;
+}
+#fb img
+{
+    width: 100%;
+    border-radius: 30px 0px 0px 30px;
+}
+
+@media only screen and (max-width: 768px)
+{
+    body {
+        font-size: 10px;
+    }
+}
