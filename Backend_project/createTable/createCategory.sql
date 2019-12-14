@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS vehicle_category(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    vehicle_id INT NOT NULL,
+    category_name VARCHAR(25) NOT NULL,
+    created_on DATETIME DEFAULT CURRENT_TIMESTAMP,
+    deleted_on DATETIME
+);
